@@ -3,11 +3,38 @@ body {
     font-family: sans-serif;
 }
 
+.menu-button {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
 .selectbutton {
     background-color: white;
     color: black;
     font-size: 15px;
     padding: 15px;
     cursor: pointer;
-    border: 0px;
+    border: 1px solid black;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 158px;
+    z-index: 1;
+}
+
+.menu:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.menu-button:hover .menu {
+    display: block;
+}
+
+.menu-button:hover .selectbutton {
+    background-color: transparent;
 }
