@@ -2,3 +2,12 @@ body {
     background-color: azure;
     font-family: sans-serif;
 }
+
+.menu-button {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 15px;
+    cursor: pointer;
+    border: 0px;
+}
