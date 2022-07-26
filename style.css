@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
-    background-image: url(/images/Background.png);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,115,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .menu-button {
@@ -37,4 +38,14 @@ body {
 
 .menu-button:hover .selectbutton {
     background-color: transparent;
+}
+
+img:hover {
+    transform: scale(1.1);
+    border-color: rgb(85, 85, 85);
+}
+img {
+    transition: transform .5s ease;
+    border: 5px solid black;
+    border-radius: 10px;
 }
