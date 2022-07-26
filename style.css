@@ -1,14 +1,6 @@
 body {
-    background: hsla(0, 100%, 25%, 1);
-
-    background: radial-gradient(circle, hsla(0, 100%, 25%, 1) 0%, hsla(0, 0%, 0%, 1) 59%);
-
-    background: -moz-radial-gradient(circle, hsla(0, 100%, 25%, 1) 0%, hsla(0, 0%, 0%, 1) 59%);
-
-    background: -webkit-radial-gradient(circle, hsla(0, 100%, 25%, 1) 0%, hsla(0, 0%, 0%, 1) 59%);
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#800000", endColorstr="#000000", GradientType=1 );
     font-family: sans-serif;
+    background-image: url(/images/Background.png);
 }
 
 .menu-button {
