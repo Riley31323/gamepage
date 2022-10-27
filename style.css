@@ -3,48 +3,33 @@ body {
     background-color: rgb(49, 45, 45);
 }
 
-.menu-button {
+button {
+    color: white;
+    background-color: rgb(68, 68, 68);
+    border-color: black;
+    border-radius: 5px;
+    padding: 64px 32px;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform 1s;
+    
+}
+
+button:hover {
+    transform: scale(1.10);
+}
+
+.MenuR1 {
     position: relative;
-    display: inline-block;
-    float: right;
+    margin: auto;
+    width: max-content;
 }
 
-.selectbutton {
-    background-color: white;
-    color: black;
-    font-size: 15px;
-    padding: 15px;
-    cursor: pointer;
-    border: 1px solid black;
-}
-
-.menu {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 158px;
-    z-index: 1;
-}
-
-.menu:hover {
-    background-color: #000;
-    color: #fff;
-}
-
-.menu-button:hover .menu {
-    display: block;
-}
-
-.menu-button:hover .selectbutton {
-    background-color: transparent;
-}
-
-img:hover {
-    transform: scale(1.1);
-    border-color: rgb(85, 85, 85);
-}
-img {
-    transition: transform .5s ease;
-    border: 5px solid black;
-    border-radius: 10px;
+#MenuR2 {
+    position: relative;
+    margin:auto;
+    width: max-content;
 }

@@ -1,2 +1,2 @@
 # gamepage
-yoooooo
+Games for School
