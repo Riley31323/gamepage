@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
-    background-color: rgb(49, 45, 45);
+    background-image: url(mesh-964.png);
+    background-attachment: fixed;
 }
 
 button {
@@ -32,4 +33,8 @@ button:hover {
     position: relative;
     margin:auto;
     width: max-content;
+}
+
+.titlebar {
+    background-color: aliceblue;
 }
