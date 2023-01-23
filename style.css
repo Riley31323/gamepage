@@ -38,3 +38,7 @@ button:hover {
 .titlebar {
     text-align: center;
 }
+
+.info {
+    background-color: grey;
+}
